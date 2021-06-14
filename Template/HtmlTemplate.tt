@@ -1,0 +1,12 @@
+﻿<#@ template language="C#" #>
+<#@ import namespace="System.Text" #>
+<#@ import namespace="System.Collections.Generic" #>
+<html>
+  <body>
+    <h1>This is a header</h1>
+    <div>
+        Hello World
+    </div>
+    <h1>This is a footer</h1>
+</body>
+</html>
