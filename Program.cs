@@ -14,8 +14,10 @@ namespace HtmlBuilderDemo
             var form = fixture.Create<Form>();
 
             var builder = new HtmlBuilder();
+            var builder2 = new HtmlAgilityPackBuilder();
 
             var html = builder.Build(form);
+            var html2 = builder2.Build(form);
         }
     }
 }
